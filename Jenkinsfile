@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 //Git 저장소에서 소스코드를 가져옵니다.
-                git branch: 'main', credentialsId: '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', url: 'https://github.com/JSBeatCode/jenkins-tuto.git'
+                git branch: 'main', credentialsId: 'github_token', url: 'https://github.com/JSBeatCode/jenkins-tuto.git'
             }
         }
 
