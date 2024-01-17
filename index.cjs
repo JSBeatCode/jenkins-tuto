@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'dist', 'index.html'))
 })
 
+// 젠킨스 실행을 위한 커밋
 
 app.listen(7771, () => {
     console.log('Server Started 7771')
