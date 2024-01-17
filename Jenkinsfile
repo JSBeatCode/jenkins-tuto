@@ -29,7 +29,7 @@ pipeline {
             steps {
                 // 배포 스크립트를 실행합니다.
                 // 예시: 배포 스크립트를 프로젝트 필요에 따라 수정
-                bat 'cd C:/Users/jsd/Documents/programming/jenkins-tuto && npx pm2 start index.cjs'
+                bat 'cd C:/Users/jsd/Documents/programming/jenkins-tuto && forever start index.cjs'
             }
         }
     }
